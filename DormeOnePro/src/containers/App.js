@@ -10,7 +10,8 @@ import {
   StyleSheet,
   Text,
   View
-} from 'react-native';
+} from 'react-native'
+
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to  home reload,\n' +
@@ -18,9 +19,7 @@ const instructions = Platform.select({
   android: 'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
 });
-
-type Props = {};
-export default class App extends Component<Props> {
+export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -38,6 +37,13 @@ export default class App extends Component<Props> {
   }
 }
 
+const initApp = () =>{
+  return (
+    {
+
+    }
+  )
+}
 const styles = StyleSheet.create({
   container: {
     flex: 1,
