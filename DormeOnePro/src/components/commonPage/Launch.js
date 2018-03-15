@@ -20,7 +20,7 @@ export default class Launch extends Component {
           <Button onPress={()=>Actions.mask("Mask")}>mask</Button>
           <Button onPress={()=>MessageBarManager.showAlert({
             title: 'Your alert title goes here',
-            message: 'Your alert message goes here',
+            message: 'Your alertdd message goes here',
             alertType: 'success',
             // See Properties section for full customization
             // Or check `index.ios.js` or `index.android.js` for a complete example
