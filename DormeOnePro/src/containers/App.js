@@ -4,7 +4,7 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React,{Component} from 'react'
 import {
   Platform,
   StyleSheet,
@@ -12,26 +12,59 @@ import {
   View
 } from 'react-native'
 
+import {Provider} from 'react-redux'
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to  home reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
-export default class App extends Component {
+import Launch from '../components/commonPage/Launch'
+
+import {Scene, Router, Actions, Reducer, ActionConst, Modal, Stack, Lightbox, Tabs} from "react-native-router-flux"
+//引入store
+import store from '../store'
+
+import type from '../constants/actionType'
+
+import MessageBar from '../utils/messageBar/MessageBar'
+
+import Tabbar from './TabbarController'
+
+
+const reducerCreate = params => {
+  const defaultReducer = new Reducer(params)
+  return (state, action) => {
+    action.type !== type.REACT_NATIVE_ROUTER_FLUX_SET_PARAMS ? dispatch(state)(action) : null
+    return defaultReducer(state, action)
+  }
+}
+
+const getSceneStyle = () => ({
+  backgroundColor: "white",
+  shadowOpacity: 1,
+  shadowRadius: 3,
+})
+
+const scenes = Actions.create(
+  <Scene key='root'>
+    <Modal key='modal' hideNavBar>
+      <Lightbox key='lightbox' hideNavBar={true}>
+        <Stack key='init'>
+          <Scene key='launch' component={Launch}
+          hideNavBar/>
+          <Scene key='main' initial back={false} component={Tabbar} hideNavBar/>
+        </Stack>
+      </Lightbox>
+    </Modal>
+  </Scene>  
+)
+class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
+      <View style={{flex:1}}>
+          <Router
+          scenes={scenes}
+          createReducer={reducerCreate}
+          tintColor='white'
+          getSceneStyle={getSceneStyle}
+        />
+        <MessageBar />
       </View>
     );
   }
@@ -39,9 +72,9 @@ export default class App extends Component {
 
 const initApp = () =>{
   return (
-    {
-
-    }
+      <Provider store={store}>
+        <App/>
+      </Provider>
   )
 }
 const styles = StyleSheet.create({
@@ -60,5 +93,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
-  },
+  }
 });
+
+
+export default initApp

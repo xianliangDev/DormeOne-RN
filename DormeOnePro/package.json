@@ -7,10 +7,18 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.3.0-alpha.1",
+    "@babel/core": "^7.0.0-beta.38",
+    "npm": "^5.7.1",
+    "react": "^16.2.0",
     "react-native": "0.54.2",
+    "react-native-button": "^2.3.0",
+    "react-native-message-bar": "^2.0.9",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-tab-navigator": "^0.3.4",
+    "react-native-vector-icons": "^4.5.0",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2",
+    "redux-actions": "^2.3.0",
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
