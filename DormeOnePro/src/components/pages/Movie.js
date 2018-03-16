@@ -2,7 +2,13 @@ import React,{Component} from 'react'
 
 import {View,Text,StyleSheet} from 'react-native'
 
-class Movie extends Component {
+class MovieList extends Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            
+        }
+    }
     render(){
         return(
             <View style={styles.container}>

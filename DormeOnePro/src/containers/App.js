@@ -35,19 +35,18 @@ const reducerCreate = params => {
   }
 }
 
-const getSceneStyle = () => ({
-  backgroundColor: "white",
-  shadowOpacity: 1,
-  shadowRadius: 3,
-})
-
+/**
+ * 方式一：是将<Router><Scene></Scene></Router>
+ * 方式二： Alternatively, 
+ * you could define all of your scenes during compile time and use it later within Router: 
+ * user the second example
+ * */
 const scenes = Actions.create(
   <Scene key='root'>
     <Modal key='modal' hideNavBar>
       <Lightbox key='lightbox' hideNavBar={true}>
         <Stack key='init'>
-          <Scene key='launch' component={Launch}
-          hideNavBar/>
+          <Scene key='launch'  component={Launch} hideNavBar/>
           <Scene key='main' initial back={false} component={Tabbar} hideNavBar/>
         </Stack>
       </Lightbox>
@@ -61,8 +60,6 @@ class App extends Component {
           <Router
           scenes={scenes}
           createReducer={reducerCreate}
-          tintColor='white'
-          getSceneStyle={getSceneStyle}
         />
         <MessageBar />
       </View>
