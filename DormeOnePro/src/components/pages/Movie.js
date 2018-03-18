@@ -30,4 +30,4 @@ const styles = StyleSheet.create({
     }
 )
 
-export default Movie
+export default MovieList
