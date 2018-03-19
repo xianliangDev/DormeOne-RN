@@ -12,13 +12,16 @@ import {
   View
 } from 'react-native'
 
-import {Provider} from 'react-redux'
+import {Provider,connect} from 'react-redux'
 
 import Launch from '../components/commonPage/Launch'
 
 import {Scene, Router, Actions, Reducer, ActionConst, Modal, Stack, Lightbox, Tabs} from "react-native-router-flux"
 //引入store
 import store from '../store'
+
+//加载条
+import Loading from '../utils/progressHud/progressHud'
 
 import type from '../constants/actionType'
 
@@ -49,7 +52,11 @@ const scenes = Actions.create(
           <Scene key='launch'  component={Launch} hideNavBar/>
           <Scene key='main' initial back={false} component={Tabbar} hideNavBar/>
         </Stack>
+        <Scene key='load' component={connect(
+         (state) => state.common.loading
+      )(Loading)}/>
       </Lightbox>
+      
     </Modal>
   </Scene>  
 )

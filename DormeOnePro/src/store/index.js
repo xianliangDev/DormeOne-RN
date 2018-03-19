@@ -1,9 +1,11 @@
 import {createStore,applyMiddleware} from 'redux'
 import reducers from '../reducers'
 import thunkMiddleWare   from 'redux-thunk'
+import promiseMiddleWare from 'redux-promise-middleware'
 
 const middleWares = [
-    thunkMiddleWare
+    thunkMiddleWare,
+    promiseMiddleWare({promiseTypeSuffixes:['Loading','SUCCESS','ERROR']}),
 ]
 
 
