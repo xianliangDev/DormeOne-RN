@@ -2,6 +2,11 @@ import React,{Component} from 'react'
 
 import {View,Text,StyleSheet} from 'react-native'
 
+//电影列表正在热映
+import showTimeList from './showTime/showTimeList'
+//电影列表即将上映
+import comingNewList from './comingNews/comingNewList'
+
 class MovieList extends Component {
     constructor(props){
         super(props)
