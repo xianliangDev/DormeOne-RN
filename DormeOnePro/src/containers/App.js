@@ -23,6 +23,7 @@ import store from '../store'
 //加载条
 import Loading from '../utils/progressHud/progressHud'
 
+import  {dispatch} from  '../utils/venilog/dispatchLog'
 import type from '../constants/actionType'
 
 import MessageBar from '../utils/messageBar/MessageBar'
@@ -52,7 +53,7 @@ const scenes = Actions.create(
           <Scene key='launch'  component={Launch} hideNavBar/>
           <Scene key='main' initial back={false} component={Tabbar} hideNavBar/>
         </Stack>
-        <Scene key='load' component={connect(
+        <Scene key='loading' component={connect(
          (state) => state.common.loading
       )(Loading)}/>
       </Lightbox>

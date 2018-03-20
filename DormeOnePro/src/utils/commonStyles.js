@@ -2,12 +2,12 @@
  * @Author: xianliang_wang 
  * @Date: 2018-03-14 16:14:30 
  * @Last Modified by: xianliang_wang
- * @Last Modified time: 2018-03-14 16:20:20
+ * @Last Modified time: 2018-03-20 10:41:58
  * 公共样式表
  */
 import {Platform} from 'react-native'
 
-export const commonStyles = {
+const commonStyles = {
     /** color **/
   // 常用颜色
   red: '#FF0000',
@@ -123,3 +123,5 @@ export const commonStyles = {
   row: 'row',
 
 }
+
+export {commonStyles}

@@ -3,15 +3,16 @@ import {View,Text,StyleSheet} from 'react-native'
 
 import {connect} from  'react-redux'
 
-import  action from  '../../actions'
+import  Action from  '../../actions'
+
 
 import  {commonStyles} from  '../../utils/commonStyles'
 
-import  {} from  'antd-mobile'
+import  {SegmentedControl} from  'antd-mobile'
 //电影列表正在热映
-import showTimeList from './showTime/showTimeList'
+import ShowTimeList from './showTime/showTimeList'
 //电影列表即将上映
-import comingNewList from './comingNews/comingNewList'
+import ComingNewList from './comingNews/comingNewList'
 
 class MovieList extends Component {
     constructor(props){
@@ -70,12 +71,12 @@ const styles = StyleSheet.create({
         justifyContent:'center'
     },
     navBarStyle: {
-        height: commonStyle.navHeight,
+        height: commonStyles.navHeight,
         backgroundColor: '#151C28',
     },
     segContainer: {
-        marginTop: commonStyle.navStatusBarHeight,
-        height: commonStyle.navContentHeight,
+        marginTop: commonStyles.navStatusBarHeight,
+        height: commonStyles.navContentHeight,
         justifyContent: 'center',
         alignItems: 'center'
     },

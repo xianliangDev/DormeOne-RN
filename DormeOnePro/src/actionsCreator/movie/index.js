@@ -3,8 +3,8 @@ import {PATH} from '../../constants/urls'
 import {ApiSource} from '../../constants/commonType'
 
 const movieList = params =>  getFetch(PATH.MOVIE_LIST,params)
-const movieShowTimeList = params => getFetch(PATH.MOVIE_LIST_SHOWTIME,params,ApiSource.MOVIE_LIST_SHOWTIME)
-const movieComingList = params => getFetch(PATH.MOVEI_LIST_COMINGNEW,params,ApiSource.MOVEI_LIST_COMINGNEW)
+const movieShowTimeList = params => getFetch(PATH.MOVIE_SHOWTIME,params,ApiSource.TIMEMOVIE)
+const movieComingList = params => getFetch(PATH.MOVIE_COMEING_NEW,params,ApiSource.TIMEMOVIE)
 
 export default {
     movieList,

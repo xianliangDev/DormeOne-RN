@@ -1,8 +1,8 @@
 import React,{Component} from 'react'
-import {View, StyleSheet, Text, Image, FlatList} from 'react-native'
-import showTimeCell from './showTimeCell'
+import {View, StyleSheet, Text, Image, ListView} from 'react-native'
+import ShowTimeCell from './showTimeCell'
 import {commonStyles} from '../../../utils/commonStyles'
-class showTimeList extends Component {
+class ShowTimeList extends Component {
     constructor(props) {
         super(props)
         this.renderRow = this.renderRow.bind(this)
@@ -33,4 +33,4 @@ class showTimeList extends Component {
 const styles = StyleSheet.create({
 
 })
-export default showTimeList
+export default ShowTimeList

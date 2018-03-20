@@ -13,7 +13,7 @@ const dispatch = name => dispatch => {
        }
        return bindActionCreators(tempActionCreatores, dispatch)
    } else {
-       return bindActionCreators(action[name].actionCreators)
+       return bindActionCreators(action[name].actionCreators,dispatch)
    }
 }
 
