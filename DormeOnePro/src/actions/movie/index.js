@@ -5,10 +5,12 @@ import actions from  '../../actionsCreator/movie'
 const  getMovieList = createAction(type.MOVIE_LIST,actions.movieList)
 const  getMovieShowTimeList = createAction(type.MOVIE_SHOWTIME_LIST,actions.movieShowTimeList)
 const  getMovieComingNewList = createAction(type.MOVIE_COMEING_NEW_LIST,actions.movieComingList)
+const getMovieDetail = createAction(type.MOVIE_DETAIL,actions.movieDetailActionCreator)
 
 const  actionCreators = {
     getMovieList:params => getMovieList(params),
     getMovieShowTimeList,
-    getMovieComingNewList
+    getMovieComingNewList,
+    getMovieDetail
 }
 export  default {actionCreators}

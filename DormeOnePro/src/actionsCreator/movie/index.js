@@ -5,9 +5,12 @@ import {ApiSource} from '../../constants/commonType'
 const movieList = params =>  getFetch(PATH.MOVIE_LIST,params)
 const movieShowTimeList = params => getFetch(PATH.MOVIE_SHOWTIME,params,ApiSource.TIMEMOVIE)
 const movieComingList = params => getFetch(PATH.MOVIE_COMEING_NEW,params,ApiSource.TIMEMOVIE)
+const movieDetailActionCreator = params => getFetch(PATH.MOVIE_DETAIL,params,ApiSource.TIMETICKET)
+
 
 export default {
     movieList,
     movieShowTimeList,
-    movieComingList
+    movieComingList,
+    movieDetailActionCreator
 }
