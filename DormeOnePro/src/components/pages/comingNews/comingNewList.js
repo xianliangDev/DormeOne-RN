@@ -37,11 +37,10 @@ class  comingNewList extends Component {
             key={index}
             style={{marginLeft:10,width:80}}
             onPress={() => Actions.moviewDetail({id:item.id})} >
-                <Image style={{width:80,height:120}} soure={{uri:item.image}}>
-                </Image>
-                <Text numberOfLines={1} style={{fontSize:14,marginVertical:6,color:commonStyles.textBlockColor}}>{itemt.title}</Text>
+                <Image style={{width:80,height:120}} source={{uri: item.image}}/>
+                <Text numberOfLines={1} style={{fontSize:14,marginVertical:6,color:commonStyles.textBlockColor,textAlign:'center'}}>{item.title}</Text>
                 <View style={{flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
-                   <Text style={{fontSize:12,color:commonStyles.textGrayColor}}>{'${item.wantedCount}人想看'}</Text>
+                   <Text style={{fontSize:12,color:commonStyles.textGrayColor}}>{`${item.wantedCount}人想看`}</Text>
                    <Icon name={'oneIcon|love_o'} size={15} color={'#F86728'}/>    
                 </View>    
             </TouchableOpacity>

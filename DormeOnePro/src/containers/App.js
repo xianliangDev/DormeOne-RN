@@ -22,8 +22,6 @@ import store from '../store'
 
 //引入action
 import Action from '../actions'
-//电影详情
-import MovieDetail from '../components/pages/movie/movieDetail'
 
 //加载条
 import Loading from '../utils/progressHud/progressHud'
@@ -34,6 +32,9 @@ import type from '../constants/actionType'
 import MessageBar from '../utils/messageBar/MessageBar'
 
 import Tabbar from './TabbarController'
+//电影详情
+import MovieDetail from '../components/pages/movie/movieDetail'
+
 
 
 const reducerCreate = params => {
@@ -57,7 +58,7 @@ const scenes = Actions.create(
         <Stack key='init'>
           <Scene key='launch'  component={Launch} hideNavBar/>
           <Scene key='main' initial back={false} component={Tabbar} hideNavBar/>
-          <Scene key='moviewDetail' compont={connect(
+          <Scene key='moviewDetail' hideNavBar component={connect(
             (state) => state.movie.movieDetail,
             Action.dispatch('movie')
           )(MovieDetail)}/>

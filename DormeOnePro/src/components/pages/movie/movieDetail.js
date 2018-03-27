@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import {View,StyleSheet} from 'react-native'
-export class MovieDetail  extends Component {
+
+class MovieDetail  extends Component {
     render(){
         return (
             <View>
@@ -12,7 +13,9 @@ export class MovieDetail  extends Component {
 const styles = StyleSheet.create(
     {
         content:{
-            backgroudcolor:'#fff'
+            backgroundColor:'#fff'
         }
     }
 )
+
+export default MovieDetail
