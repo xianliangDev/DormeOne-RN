@@ -58,7 +58,7 @@ const scenes = Actions.create(
         <Stack key='init'>
           <Scene key='launch'  component={Launch} hideNavBar/>
           <Scene key='main' initial back={false} component={Tabbar} hideNavBar/>
-          <Scene key='moviewDetail' hideNavBar component={connect(
+          <Scene key='movieDetail'  hideNavBar component={connect(
             (state) => state.movie.movieDetail,
             Action.dispatch('movie')
           )(MovieDetail)}/>
