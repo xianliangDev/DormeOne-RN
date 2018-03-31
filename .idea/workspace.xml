@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4032cca9-bc95-4ce3-8485-53ae66467252" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DormeOnePro/src/actions/index.js" afterPath="$PROJECT_DIR$/DormeOnePro/src/actions/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DormeOnePro/src/actions/movie/index.js" afterPath="$PROJECT_DIR$/DormeOnePro/src/actions/movie/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DormeOnePro/src/actionsCreator/movie/index.js" afterPath="$PROJECT_DIR$/DormeOnePro/src/actionsCreator/movie/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DormeOnePro/src/components/pages/Movie.js" afterPath="$PROJECT_DIR$/DormeOnePro/src/components/pages/Movie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DormeOnePro/src/components/pages/showTime/showTimeList.js" afterPath="$PROJECT_DIR$/DormeOnePro/src/components/pages/showTime/showTimeList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DormeOnePro/ios/Info.plist" afterPath="$PROJECT_DIR$/DormeOnePro/ios/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DormeOnePro/package-lock.json" afterPath="$PROJECT_DIR$/DormeOnePro/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DormeOnePro/package.json" afterPath="$PROJECT_DIR$/DormeOnePro/package.json" />
     </list>
     <ignored path="DormeOne-RN.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +31,7 @@
       <file leaf-file-name="TabbarController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DormeOnePro/src/containers/TabbarController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="210">
               <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -47,9 +45,176 @@
       <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DormeOnePro/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+              <folding>
+                <marker date="1522463619050" expanded="true" signature="102:476348" ph="{...}" />
+                <marker date="1522463619050" expanded="true" signature="129:413" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="354:407" ph="{&quot;@babel/highlight&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="434:6552" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="647:1164" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="1188:6546" ph="{...}" />
+                <marker date="1522463619050" expanded="true" signature="1219:1578" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="1460:1568" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="1608:2046" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="1847:2036" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="2087:2528" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="2348:2518" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="2574:2912" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="2845:2902" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="2941:3367" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="3178:3357" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="3396:4028" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="3633:4018" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="4054:4414" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="4285:4404" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="4439:4712" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="4652:4702" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="4733:4940" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="4959:5302" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="5160:5292" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="5321:5571" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="5522:5561" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="5592:5785" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="5804:5991" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="6019:6293" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="6238:6283" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="6325:6538" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="6578:7210" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="6801:6966" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="6990:7204" ph="{...}" />
+                <marker date="1522463619050" expanded="true" signature="7009:7196" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="7250:7556" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="7501:7550" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="7597:7933" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="7850:7927" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="7970:8372" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="8215:8366" ph="{&quot;@babel/helper-hoist-variables&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="8406:8784" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="8645:8778" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="8821:9226" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="9066:9220" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="9268:9578" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="9523:9572" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="9617:9921" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="9866:9915" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="9959:10289" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="10206:10283" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="10330:10823" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="10583:10817" ph="{&quot;@babel/helper-module-imports&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="10871:11193" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="11138:11187" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="11241:11766" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="11508:11760" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="11804:12261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="12051:12255" ph="{&quot;@babel/helper-optimise-call-expression&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="12298:12670" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="12543:12664" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="12707:13151" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="12952:13145" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="13175:18919" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="13394:13531" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="13555:18913" ph="{...}" />
+                <marker date="1522463619050" expanded="true" signature="13586:13945" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="13827:13935" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="13975:14413" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="14214:14403" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="14454:14895" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="14715:14885" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="14941:15279" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="15212:15269" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="15308:15734" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="15545:15724" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="15763:16395" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="16000:16385" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="16421:16781" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="16652:16771" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="16806:17079" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="17019:17069" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="17100:17307" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="17326:17669" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="17527:17659" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="17688:17938" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="17889:17928" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="17959:18152" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="18171:18358" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="18386:18660" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="18605:18650" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="18692:18905" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="18945:20260" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="19168:19260" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="19284:20254" ph="{...}" />
+                <marker date="1522463619050" expanded="true" signature="19309:19582" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="19522:19572" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="19601:19944" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="19802:19934" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="19972:20246" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="20191:20236" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="20299:20534" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="20574:20811" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="20860:21265" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="21129:21259" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="21316:21671" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="21589:21665" ph="{&quot;@babel/plugin-syntax-object-rest-spread&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="21718:21969" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="22014:22261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="22296:22523" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="22557:22782" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="22831:23086" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="23135:23390" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="23437:23744" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="23702:23738" ph="{&quot;lodash&quot;: &quot;4.17.5&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="23785:24619" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="24038:24367" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="24391:24613" ph="{...}" />
+                <marker date="1522463619050" expanded="true" signature="24412:24605" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="24672:24935" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="24982:25233" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="25283:25622" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="25554:25616" ph="{&quot;@babel/plugin-syntax-flow&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="25662:25899" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="25946:26281" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="26211:26275" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="26323:26564" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="26614:27015" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="26885:27009" ph="{&quot;@babel/helper-module-transforms&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="27062:27313" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="27357:27747" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="27616:27741" ph="{&quot;@babel/helper-call-delegate&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="27799:28060" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="28103:28487" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="28360:28481" ph="{&quot;@babel/helper-builder-react-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="28537:28875" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="28808:28869" ph="{&quot;@babel/plugin-syntax-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="28920:29238" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="29181:29232" ph="{&quot;regenerator-transform&quot;: &quot;0.12.3&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="29292:29557" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="29597:29834" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="29885:30231" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="30158:30225" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="30256:30902" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="30477:30636" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="30660:30896" ph="{...}" />
+                <marker date="1522463619050" expanded="true" signature="30681:30888" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="30927:32242" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="31148:31493" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="31517:32236" ph="{...}" />
+                <marker date="1522463619050" expanded="true" signature="31538:31745" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="31764:32014" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="31965:32004" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="32035:32228" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="32264:32865" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="32479:32582" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="32606:32859" ph="{...}" />
+                <marker date="1522463619050" expanded="true" signature="32638:32851" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="33090:33277" ph="{&quot;version&quot;: &quot;0.0.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="33294:33560" ph="{&quot;version&quot;: &quot;1.3.5&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="33483:33554" ph="{&quot;mime-types&quot;: &quot;2.1.18&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="33575:33765" ph="{&quot;version&quot;: &quot;5.5.3&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="33788:34048" ph="{&quot;version&quot;: &quot;4.1.0&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="34008:34042" ph="{&quot;acorn&quot;: &quot;5.5.3&quot;...}" />
+                <marker date="1522463619050" expanded="true" signature="476327:476344" ph="{&quot;version&quot;: &quot;7.0.0&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,7 +232,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DormeOnePro/src/actionsCreator/movie/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="150">
               <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="e#0#98#0" expanded="true" />
@@ -76,22 +241,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Movie.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Movie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DormeOnePro/src/components/pages/Movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showTimeList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="showTimeList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DormeOnePro/src/components/pages/showTime/showTimeList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="231">
               <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -115,7 +278,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DormeOnePro/src/actions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="270">
               <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -137,7 +300,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DormeOnePro/src/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="150">
               <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
@@ -182,8 +345,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="153" />
+    <option name="x" value="103" />
+    <option name="y" value="127" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
   </component>
@@ -212,7 +375,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -510,6 +672,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -594,32 +757,33 @@
       <workItem from="1521468346856" duration="13000" />
       <workItem from="1521431496190" duration="132000" />
       <workItem from="1521471339569" duration="2814000" />
+      <workItem from="1522463520384" duration="135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8820000" />
+    <option name="totallyTimeSpent" value="8955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="153" width="1280" height="709" extended-state="0" />
+    <frame x="103" y="127" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31118315" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -642,10 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#89#126#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,7 +813,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1522463619050" expanded="true" signature="102:476348" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="129:413" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="354:407" ph="{&quot;@babel/highlight&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="434:6552" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="647:1164" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1188:6546" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="1219:1578" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1460:1568" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1608:2046" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1847:2036" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2087:2528" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2348:2518" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2574:2912" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2845:2902" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2941:3367" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3178:3357" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3396:4028" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3633:4018" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4054:4414" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4285:4404" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4439:4712" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4652:4702" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4733:4940" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4959:5302" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5160:5292" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5321:5571" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5522:5561" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5592:5785" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5804:5991" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6019:6293" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6238:6283" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6325:6538" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6578:7210" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6801:6966" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6990:7204" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="7009:7196" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7250:7556" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7501:7550" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7597:7933" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7850:7927" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7970:8372" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8215:8366" ph="{&quot;@babel/helper-hoist-variables&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8406:8784" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8645:8778" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8821:9226" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9066:9220" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9268:9578" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9523:9572" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9617:9921" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9866:9915" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9959:10289" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10206:10283" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10330:10823" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10583:10817" ph="{&quot;@babel/helper-module-imports&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10871:11193" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11138:11187" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11241:11766" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11508:11760" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11804:12261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12051:12255" ph="{&quot;@babel/helper-optimise-call-expression&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12298:12670" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12543:12664" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12707:13151" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12952:13145" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13175:18919" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13394:13531" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13555:18913" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="13586:13945" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13827:13935" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13975:14413" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14214:14403" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14454:14895" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14715:14885" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14941:15279" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15212:15269" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15308:15734" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15545:15724" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15763:16395" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16000:16385" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16421:16781" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16652:16771" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16806:17079" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17019:17069" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17100:17307" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17326:17669" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17527:17659" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17688:17938" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17889:17928" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17959:18152" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18171:18358" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18386:18660" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18605:18650" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18692:18905" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18945:20260" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19168:19260" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19284:20254" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="19309:19582" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19522:19572" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19601:19944" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19802:19934" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19972:20246" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20191:20236" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20299:20534" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20574:20811" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20860:21265" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21129:21259" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21316:21671" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21589:21665" ph="{&quot;@babel/plugin-syntax-object-rest-spread&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21718:21969" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22014:22261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22296:22523" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22557:22782" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22831:23086" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23135:23390" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23437:23744" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23702:23738" ph="{&quot;lodash&quot;: &quot;4.17.5&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23785:24619" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24038:24367" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24391:24613" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="24412:24605" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24672:24935" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24982:25233" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25283:25622" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25554:25616" ph="{&quot;@babel/plugin-syntax-flow&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25662:25899" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25946:26281" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26211:26275" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26323:26564" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26614:27015" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26885:27009" ph="{&quot;@babel/helper-module-transforms&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27062:27313" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27357:27747" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27616:27741" ph="{&quot;@babel/helper-call-delegate&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27799:28060" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28103:28487" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28360:28481" ph="{&quot;@babel/helper-builder-react-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28537:28875" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28808:28869" ph="{&quot;@babel/plugin-syntax-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28920:29238" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29181:29232" ph="{&quot;regenerator-transform&quot;: &quot;0.12.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29292:29557" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29597:29834" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29885:30231" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30158:30225" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30256:30902" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30477:30636" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30660:30896" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="30681:30888" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30927:32242" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31148:31493" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31517:32236" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="31538:31745" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31764:32014" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31965:32004" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32035:32228" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32264:32865" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32479:32582" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32606:32859" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="32638:32851" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33090:33277" ph="{&quot;version&quot;: &quot;0.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33294:33560" ph="{&quot;version&quot;: &quot;1.3.5&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33483:33554" ph="{&quot;mime-types&quot;: &quot;2.1.18&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33575:33765" ph="{&quot;version&quot;: &quot;5.5.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33788:34048" ph="{&quot;version&quot;: &quot;4.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="34008:34042" ph="{&quot;acorn&quot;: &quot;5.5.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="476327:476344" ph="{&quot;version&quot;: &quot;7.0.0&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -691,9 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,9 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,9 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,10 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#89#126#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,7 +1046,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1522463619050" expanded="true" signature="102:476348" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="129:413" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="354:407" ph="{&quot;@babel/highlight&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="434:6552" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="647:1164" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1188:6546" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="1219:1578" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1460:1568" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1608:2046" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1847:2036" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2087:2528" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2348:2518" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2574:2912" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2845:2902" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2941:3367" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3178:3357" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3396:4028" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3633:4018" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4054:4414" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4285:4404" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4439:4712" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4652:4702" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4733:4940" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4959:5302" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5160:5292" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5321:5571" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5522:5561" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5592:5785" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5804:5991" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6019:6293" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6238:6283" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6325:6538" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6578:7210" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6801:6966" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6990:7204" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="7009:7196" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7250:7556" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7501:7550" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7597:7933" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7850:7927" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7970:8372" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8215:8366" ph="{&quot;@babel/helper-hoist-variables&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8406:8784" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8645:8778" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8821:9226" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9066:9220" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9268:9578" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9523:9572" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9617:9921" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9866:9915" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9959:10289" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10206:10283" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10330:10823" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10583:10817" ph="{&quot;@babel/helper-module-imports&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10871:11193" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11138:11187" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11241:11766" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11508:11760" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11804:12261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12051:12255" ph="{&quot;@babel/helper-optimise-call-expression&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12298:12670" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12543:12664" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12707:13151" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12952:13145" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13175:18919" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13394:13531" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13555:18913" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="13586:13945" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13827:13935" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13975:14413" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14214:14403" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14454:14895" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14715:14885" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14941:15279" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15212:15269" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15308:15734" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15545:15724" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15763:16395" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16000:16385" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16421:16781" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16652:16771" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16806:17079" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17019:17069" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17100:17307" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17326:17669" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17527:17659" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17688:17938" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17889:17928" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17959:18152" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18171:18358" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18386:18660" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18605:18650" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18692:18905" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18945:20260" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19168:19260" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19284:20254" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="19309:19582" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19522:19572" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19601:19944" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19802:19934" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19972:20246" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20191:20236" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20299:20534" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20574:20811" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20860:21265" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21129:21259" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21316:21671" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21589:21665" ph="{&quot;@babel/plugin-syntax-object-rest-spread&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21718:21969" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22014:22261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22296:22523" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22557:22782" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22831:23086" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23135:23390" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23437:23744" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23702:23738" ph="{&quot;lodash&quot;: &quot;4.17.5&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23785:24619" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24038:24367" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24391:24613" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="24412:24605" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24672:24935" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24982:25233" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25283:25622" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25554:25616" ph="{&quot;@babel/plugin-syntax-flow&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25662:25899" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25946:26281" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26211:26275" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26323:26564" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26614:27015" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26885:27009" ph="{&quot;@babel/helper-module-transforms&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27062:27313" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27357:27747" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27616:27741" ph="{&quot;@babel/helper-call-delegate&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27799:28060" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28103:28487" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28360:28481" ph="{&quot;@babel/helper-builder-react-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28537:28875" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28808:28869" ph="{&quot;@babel/plugin-syntax-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28920:29238" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29181:29232" ph="{&quot;regenerator-transform&quot;: &quot;0.12.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29292:29557" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29597:29834" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29885:30231" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30158:30225" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30256:30902" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30477:30636" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30660:30896" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="30681:30888" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30927:32242" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31148:31493" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31517:32236" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="31538:31745" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31764:32014" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31965:32004" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32035:32228" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32264:32865" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32479:32582" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32606:32859" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="32638:32851" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33090:33277" ph="{&quot;version&quot;: &quot;0.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33294:33560" ph="{&quot;version&quot;: &quot;1.3.5&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33483:33554" ph="{&quot;mime-types&quot;: &quot;2.1.18&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33575:33765" ph="{&quot;version&quot;: &quot;5.5.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33788:34048" ph="{&quot;version&quot;: &quot;4.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="34008:34042" ph="{&quot;acorn&quot;: &quot;5.5.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="476327:476344" ph="{&quot;version&quot;: &quot;7.0.0&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -784,10 +1265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#89#126#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,7 +1279,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1522463619050" expanded="true" signature="102:476348" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="129:413" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="354:407" ph="{&quot;@babel/highlight&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="434:6552" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="647:1164" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1188:6546" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="1219:1578" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1460:1568" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1608:2046" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1847:2036" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2087:2528" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2348:2518" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2574:2912" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2845:2902" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2941:3367" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3178:3357" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3396:4028" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3633:4018" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4054:4414" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4285:4404" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4439:4712" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4652:4702" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4733:4940" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4959:5302" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5160:5292" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5321:5571" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5522:5561" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5592:5785" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5804:5991" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6019:6293" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6238:6283" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6325:6538" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6578:7210" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6801:6966" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6990:7204" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="7009:7196" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7250:7556" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7501:7550" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7597:7933" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7850:7927" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7970:8372" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8215:8366" ph="{&quot;@babel/helper-hoist-variables&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8406:8784" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8645:8778" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8821:9226" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9066:9220" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9268:9578" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9523:9572" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9617:9921" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9866:9915" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9959:10289" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10206:10283" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10330:10823" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10583:10817" ph="{&quot;@babel/helper-module-imports&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10871:11193" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11138:11187" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11241:11766" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11508:11760" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11804:12261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12051:12255" ph="{&quot;@babel/helper-optimise-call-expression&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12298:12670" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12543:12664" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12707:13151" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12952:13145" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13175:18919" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13394:13531" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13555:18913" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="13586:13945" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13827:13935" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13975:14413" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14214:14403" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14454:14895" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14715:14885" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14941:15279" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15212:15269" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15308:15734" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15545:15724" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15763:16395" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16000:16385" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16421:16781" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16652:16771" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16806:17079" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17019:17069" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17100:17307" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17326:17669" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17527:17659" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17688:17938" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17889:17928" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17959:18152" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18171:18358" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18386:18660" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18605:18650" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18692:18905" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18945:20260" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19168:19260" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19284:20254" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="19309:19582" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19522:19572" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19601:19944" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19802:19934" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19972:20246" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20191:20236" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20299:20534" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20574:20811" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20860:21265" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21129:21259" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21316:21671" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21589:21665" ph="{&quot;@babel/plugin-syntax-object-rest-spread&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21718:21969" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22014:22261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22296:22523" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22557:22782" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22831:23086" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23135:23390" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23437:23744" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23702:23738" ph="{&quot;lodash&quot;: &quot;4.17.5&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23785:24619" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24038:24367" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24391:24613" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="24412:24605" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24672:24935" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24982:25233" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25283:25622" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25554:25616" ph="{&quot;@babel/plugin-syntax-flow&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25662:25899" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25946:26281" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26211:26275" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26323:26564" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26614:27015" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26885:27009" ph="{&quot;@babel/helper-module-transforms&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27062:27313" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27357:27747" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27616:27741" ph="{&quot;@babel/helper-call-delegate&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27799:28060" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28103:28487" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28360:28481" ph="{&quot;@babel/helper-builder-react-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28537:28875" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28808:28869" ph="{&quot;@babel/plugin-syntax-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28920:29238" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29181:29232" ph="{&quot;regenerator-transform&quot;: &quot;0.12.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29292:29557" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29597:29834" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29885:30231" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30158:30225" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30256:30902" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30477:30636" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30660:30896" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="30681:30888" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30927:32242" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31148:31493" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31517:32236" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="31538:31745" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31764:32014" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31965:32004" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32035:32228" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32264:32865" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32479:32582" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32606:32859" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="32638:32851" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33090:33277" ph="{&quot;version&quot;: &quot;0.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33294:33560" ph="{&quot;version&quot;: &quot;1.3.5&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33483:33554" ph="{&quot;mime-types&quot;: &quot;2.1.18&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33575:33765" ph="{&quot;version&quot;: &quot;5.5.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33788:34048" ph="{&quot;version&quot;: &quot;4.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="34008:34042" ph="{&quot;acorn&quot;: &quot;5.5.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="476327:476344" ph="{&quot;version&quot;: &quot;7.0.0&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -841,7 +1485,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1522463619050" expanded="true" signature="102:476348" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="129:413" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="354:407" ph="{&quot;@babel/highlight&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="434:6552" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="647:1164" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1188:6546" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="1219:1578" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1460:1568" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1608:2046" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1847:2036" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2087:2528" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2348:2518" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2574:2912" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2845:2902" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2941:3367" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3178:3357" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3396:4028" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3633:4018" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4054:4414" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4285:4404" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4439:4712" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4652:4702" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4733:4940" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4959:5302" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5160:5292" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5321:5571" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5522:5561" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5592:5785" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5804:5991" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6019:6293" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6238:6283" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6325:6538" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6578:7210" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6801:6966" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6990:7204" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="7009:7196" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7250:7556" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7501:7550" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7597:7933" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7850:7927" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7970:8372" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8215:8366" ph="{&quot;@babel/helper-hoist-variables&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8406:8784" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8645:8778" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8821:9226" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9066:9220" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9268:9578" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9523:9572" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9617:9921" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9866:9915" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9959:10289" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10206:10283" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10330:10823" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10583:10817" ph="{&quot;@babel/helper-module-imports&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10871:11193" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11138:11187" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11241:11766" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11508:11760" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11804:12261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12051:12255" ph="{&quot;@babel/helper-optimise-call-expression&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12298:12670" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12543:12664" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12707:13151" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12952:13145" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13175:18919" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13394:13531" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13555:18913" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="13586:13945" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13827:13935" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13975:14413" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14214:14403" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14454:14895" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14715:14885" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14941:15279" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15212:15269" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15308:15734" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15545:15724" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15763:16395" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16000:16385" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16421:16781" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16652:16771" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16806:17079" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17019:17069" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17100:17307" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17326:17669" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17527:17659" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17688:17938" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17889:17928" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17959:18152" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18171:18358" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18386:18660" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18605:18650" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18692:18905" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18945:20260" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19168:19260" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19284:20254" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="19309:19582" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19522:19572" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19601:19944" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19802:19934" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19972:20246" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20191:20236" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20299:20534" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20574:20811" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20860:21265" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21129:21259" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21316:21671" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21589:21665" ph="{&quot;@babel/plugin-syntax-object-rest-spread&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21718:21969" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22014:22261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22296:22523" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22557:22782" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22831:23086" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23135:23390" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23437:23744" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23702:23738" ph="{&quot;lodash&quot;: &quot;4.17.5&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23785:24619" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24038:24367" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24391:24613" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="24412:24605" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24672:24935" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24982:25233" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25283:25622" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25554:25616" ph="{&quot;@babel/plugin-syntax-flow&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25662:25899" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25946:26281" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26211:26275" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26323:26564" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26614:27015" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26885:27009" ph="{&quot;@babel/helper-module-transforms&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27062:27313" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27357:27747" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27616:27741" ph="{&quot;@babel/helper-call-delegate&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27799:28060" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28103:28487" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28360:28481" ph="{&quot;@babel/helper-builder-react-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28537:28875" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28808:28869" ph="{&quot;@babel/plugin-syntax-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28920:29238" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29181:29232" ph="{&quot;regenerator-transform&quot;: &quot;0.12.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29292:29557" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29597:29834" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29885:30231" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30158:30225" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30256:30902" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30477:30636" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30660:30896" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="30681:30888" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30927:32242" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31148:31493" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31517:32236" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="31538:31745" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31764:32014" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31965:32004" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32035:32228" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32264:32865" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32479:32582" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32606:32859" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="32638:32851" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33090:33277" ph="{&quot;version&quot;: &quot;0.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33294:33560" ph="{&quot;version&quot;: &quot;1.3.5&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33483:33554" ph="{&quot;mime-types&quot;: &quot;2.1.18&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33575:33765" ph="{&quot;version&quot;: &quot;5.5.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33788:34048" ph="{&quot;version&quot;: &quot;4.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="34008:34042" ph="{&quot;acorn&quot;: &quot;5.5.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="476327:476344" ph="{&quot;version&quot;: &quot;7.0.0&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -917,9 +1728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,15 +1735,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DormeOnePro/src/containers/TabbarController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="210">
           <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -975,7 +1780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DormeOnePro/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="150">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
@@ -1000,9 +1805,176 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DormeOnePro/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <marker date="1522463619050" expanded="true" signature="102:476348" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="129:413" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="354:407" ph="{&quot;@babel/highlight&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="434:6552" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="647:1164" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1188:6546" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="1219:1578" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1460:1568" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1608:2046" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="1847:2036" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2087:2528" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2348:2518" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2574:2912" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2845:2902" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="2941:3367" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3178:3357" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3396:4028" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="3633:4018" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4054:4414" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4285:4404" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4439:4712" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4652:4702" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4733:4940" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="4959:5302" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5160:5292" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5321:5571" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5522:5561" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5592:5785" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="5804:5991" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6019:6293" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6238:6283" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6325:6538" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6578:7210" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6801:6966" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="6990:7204" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="7009:7196" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7250:7556" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7501:7550" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7597:7933" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7850:7927" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="7970:8372" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8215:8366" ph="{&quot;@babel/helper-hoist-variables&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8406:8784" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8645:8778" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="8821:9226" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9066:9220" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9268:9578" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9523:9572" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9617:9921" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9866:9915" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="9959:10289" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10206:10283" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10330:10823" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10583:10817" ph="{&quot;@babel/helper-module-imports&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="10871:11193" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11138:11187" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11241:11766" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11508:11760" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="11804:12261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12051:12255" ph="{&quot;@babel/helper-optimise-call-expression&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12298:12670" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12543:12664" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12707:13151" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="12952:13145" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13175:18919" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13394:13531" ph="{&quot;@babel/template&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13555:18913" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="13586:13945" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13827:13935" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="13975:14413" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14214:14403" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14454:14895" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14715:14885" ph="{&quot;@babel/helper-get-function-arity&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="14941:15279" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15212:15269" ph="{&quot;@babel/types&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15308:15734" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15545:15724" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="15763:16395" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16000:16385" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16421:16781" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16652:16771" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="16806:17079" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17019:17069" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17100:17307" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17326:17669" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17527:17659" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17688:17938" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17889:17928" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="17959:18152" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18171:18358" ph="{&quot;version&quot;: &quot;2.5.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18386:18660" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18605:18650" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18692:18905" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="18945:20260" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19168:19260" ph="{&quot;chalk&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19284:20254" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="19309:19582" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19522:19572" ph="{&quot;color-convert&quot;: &quot;1.9.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19601:19944" ph="{&quot;version&quot;: &quot;2.3.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19802:19934" ph="{&quot;ansi-styles&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="19972:20246" ph="{&quot;version&quot;: &quot;5.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20191:20236" ph="{&quot;has-flag&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20299:20534" ph="{&quot;version&quot;: &quot;7.0.0-beta.38&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20574:20811" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="20860:21265" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21129:21259" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21316:21671" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21589:21665" ph="{&quot;@babel/plugin-syntax-object-rest-spread&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="21718:21969" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22014:22261" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22296:22523" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22557:22782" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="22831:23086" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23135:23390" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23437:23744" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23702:23738" ph="{&quot;lodash&quot;: &quot;4.17.5&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="23785:24619" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24038:24367" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24391:24613" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="24412:24605" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24672:24935" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="24982:25233" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25283:25622" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25554:25616" ph="{&quot;@babel/plugin-syntax-flow&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25662:25899" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="25946:26281" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26211:26275" ph="{&quot;@babel/helper-function-name&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26323:26564" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26614:27015" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="26885:27009" ph="{&quot;@babel/helper-module-transforms&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27062:27313" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27357:27747" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27616:27741" ph="{&quot;@babel/helper-call-delegate&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="27799:28060" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28103:28487" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28360:28481" ph="{&quot;@babel/helper-builder-react-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28537:28875" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28808:28869" ph="{&quot;@babel/plugin-syntax-jsx&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="28920:29238" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29181:29232" ph="{&quot;regenerator-transform&quot;: &quot;0.12.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29292:29557" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29597:29834" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="29885:30231" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30158:30225" ph="{&quot;@babel/helper-annotate-as-pure&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30256:30902" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30477:30636" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30660:30896" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="30681:30888" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="30927:32242" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31148:31493" ph="{&quot;@babel/code-frame&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31517:32236" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="31538:31745" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31764:32014" ph="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="31965:32004" ph="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32035:32228" ph="{&quot;version&quot;: &quot;11.3.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32264:32865" ph="{&quot;version&quot;: &quot;7.0.0-beta.40&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32479:32582" ph="{&quot;esutils&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="32606:32859" ph="{...}" />
+            <marker date="1522463619050" expanded="true" signature="32638:32851" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33090:33277" ph="{&quot;version&quot;: &quot;0.0.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33294:33560" ph="{&quot;version&quot;: &quot;1.3.5&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33483:33554" ph="{&quot;mime-types&quot;: &quot;2.1.18&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33575:33765" ph="{&quot;version&quot;: &quot;5.5.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="33788:34048" ph="{&quot;version&quot;: &quot;4.1.0&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="34008:34042" ph="{&quot;acorn&quot;: &quot;5.5.3&quot;...}" />
+            <marker date="1522463619050" expanded="true" signature="476327:476344" ph="{&quot;version&quot;: &quot;7.0.0&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1016,7 +1988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DormeOnePro/src/actionsCreator/movie/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="150">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="e#0#98#0" expanded="true" />
@@ -1026,7 +1998,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DormeOnePro/src/actions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="270">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -1044,23 +2016,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DormeOnePro/src/components/pages/Movie.js">
+    <entry file="file://$PROJECT_DIR$/DormeOnePro/src/components/pages/showTime/showTimeList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+        <state relative-caret-position="231">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DormeOnePro/src/components/pages/showTime/showTimeList.js">
+    <entry file="file://$PROJECT_DIR$/DormeOnePro/src/components/pages/Movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

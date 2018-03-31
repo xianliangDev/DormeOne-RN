@@ -1,5 +1,5 @@
 {
-  "name": "DormeOnePro",
+  "name": "ls",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.0.0-beta.38",
+    "antd-mobile": "^2.1.8",
     "npm": "^5.7.1",
     "react": "^16.2.0",
     "react-native": "0.54.2",
@@ -33,5 +34,9 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
