@@ -10,7 +10,7 @@ const originReducers = {}
 originReducers[actionType.MOVIE_DETAIL + actionType.FETCH_SUCCESS_SUFFIX] = (state,action) => {
     return {
         ...state,
-        movieDetail:action.payload.data
+        movieDetail: action.payload.data
     }
 }
 
