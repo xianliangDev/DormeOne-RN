@@ -1,9 +1,11 @@
 import React,{Component} from 'react'
-import {View,StyleSheet,ScrollView,findNodeHandle,Image} from 'react-native'
+import {View,StyleSheet,ScrollView,findNodeHandle,Image,TouchableOpacity,Text} from 'react-native'
 import {VibrancyView} from 'react-native-blur'
 
 import {Actions} from 'react-native-router-flux'
 
+import {Icon}  from '../../../utils/icon'
+import {commonStyles} from '../../../utils/commonStyles'
 import deviceInfo from '../../../utils/deviceInfo'
 
 class MovieDetail  extends Component {
@@ -44,7 +46,6 @@ class MovieDetail  extends Component {
        
         let data = this.props.movieDetail
         let basic = data.basic
-        console.log('aaaa---' + basic.img)
         return (
                 <View style = {styles.container}>
                     <ScrollView
@@ -57,8 +58,45 @@ class MovieDetail  extends Component {
                         source={{uri: basic.img}} 
                         resizeMode='stretch'
                         onLoadEnd={() => this.imageLoaded()} >
-                        </Image>    
-                    </ScrollView>    
+                        </Image>
+                        <View style={styles.bgContainer}>
+                            <VibrancyView
+                            blurType={'light'}
+                            blurAmount={10}
+                            style={[styles.container,styles.bgContainer]}
+                            />
+                        </View >
+                        <View style={styles.contentStyle}>
+                            <View style={styles.headerStyle}>
+                                <TouchableOpacity style={{backgroundColor:commonStyles.clear,
+                                justifyContent:'center',
+                                alignItems:'center',
+                                     }}>
+                                    <Image style={{width:100,height:150}}
+                                    source={{uri:basic.img}}
+                                    resizeMode='contain'>
+                                    </Image>
+                                    <View style={{position:commonStyles.absolute}}> 
+                                        <Icon name={'oneIcon|play_cycle_o'} size={25} color={commonStyles.white}></Icon>   
+                                    </View>    
+                                </TouchableOpacity>    
+                            </View>    
+                        </View>    
+                    </ScrollView>  
+                    {/* 顶部导航栏 */}
+                    <View style={[styles.navBarStyle,{backgroundColor:commonStyles.clear}]}>
+                        <View style={styles.navCommentStyle}>
+                            <TouchableOpacity onPress={() => Actions.pop()}>
+                                <Icon name={'oneIcon|nav_back_o'} size={20} color={commonStyles.white}></Icon>
+                            </TouchableOpacity>    
+                            <Text style={{fontSize:17,color:commonStyles.white}}>{basic.name}</Text>
+                            <TouchableOpacity style={{marginRight:10}} onPress={() => this.setState({modalVisible:true})}>
+                                <Icon name={'oneIcon|share_o'} size={20} color={commonStyles.white}></Icon>
+                            </TouchableOpacity>    
+                        </View>
+                        <View>
+                        </View>        
+                    </View>    
                 </View>
             )
     }
@@ -75,7 +113,7 @@ class MovieDetail  extends Component {
 const styles = StyleSheet.create(
     {
         container:{
-            backgroundColor:'#fff',
+            backgroundColor:'transparent',
             flex:1
         },
         bgContainer: {
@@ -86,7 +124,34 @@ const styles = StyleSheet.create(
         vibrancy:{
             width:deviceInfo.deviceWidth,
             height:100,
+        },
+        navBarStyle:{
+            height:64,
+            backgroundColor:'#161C28',
+            position:'absolute',
+            width:deviceInfo.deviceWidth
+        },
+        navCommentStyle:{
+            height:44,
+            marginTop:20,
+            flexDirection:'row',
+            alignItems:'center',
+            paddingHorizontal:10,
+            justifyContent:'space-between'
+        },
+        contentStyle:{
+            marginTop:120,
+            flex:1,
+            backgroundColor:commonStyles.white
+        },
+        headerStyle:{
+            marginTop: 0,
+            height:100,
+            flexDirection: 'row',
+            paddingHorizontal: 10,
+            paddingBottom:10,
         }
+
     }
 )
 
