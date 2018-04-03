@@ -42,6 +42,13 @@ class MovieDetail  extends Component {
             viewRef: findNodeHandle(this.backgroudImage)
         })
     }
+
+    renderStory(array){
+        return (
+            array.map((item,index) => 
+                     <Text key={index} style={{fontSize:13,marginTop:3,color:commonStyles.textBlockColor}}>{item}</Text> )
+        )
+    }
     renderContent(){
        
         let data = this.props.movieDetail
@@ -79,7 +86,45 @@ class MovieDetail  extends Component {
                                     <View style={{position:commonStyles.absolute}}> 
                                         <Icon name={'oneIcon|play_cycle_o'} size={25} color={commonStyles.white}></Icon>   
                                     </View>    
+                                </TouchableOpacity> 
+                                <View style={styles.rightContentStyle}>  
+                                            <Text style={{color:commonStyles.white,fontSize:16,
+                                            marginVertical:5 }}>{basic.name}</Text>
+                                            <Text style={{color:commonStyles.white,fontSize: 13, marginBottom: 8}}>{basic.nameEn}</Text>
+                                            <View style={{flexDirection:'row'}}>
+                                            {
+                                                this.renderStory(basic.type)
+                                            }
+                                            </View>    
+                                            <Text style={{color:commonStyles.textBlockColor,fontSize:13,
+                                            marginTop:5 }}>{`${basic.releaseDate}-${basic.releaseArea}`}</Text>
+                                            <View style={styles.textReleaseAreatextReleaseArea}>
+                                                <Text style={{paddingHorizontal: 5, paddingVertical: 2, color: '#64788E', fontSize: 10}}>{`${basic.releaseArea}巨制`}</Text>
+                                            </View>    
+                                </View>    
+                                <View style={{width: 40, marginTop: 30}}>
+                                            <View style={{alignItems: 'center', justifyContent: 'center', backgroundColor: '#588F03', height: 40}}>
+                                                <Text style={{fontSize: 15, color: commonStyles.white}}>{basic.overallRating}</Text>
+                                            </View>
+                                </View>  
+                            </View>
+                            <View style={styles.storyContentStyle}>    
+                                <Text style={{fontSize:16,color:commonStyles.textBlockColor,lineHeight:20,padding:10}}>{`剧情：${basic.story}`}</Text>
+                            </View> 
+                            <View style={{backgroundColor:commonStyles.white,width:deviceInfo.deviceWidth,
+                            height:180,flexDirection:'row' }}>   
+                                <TouchableOpacity style={{flexDirection:'column',alignItems:'flex-start',paddingLeft:20,flex:4}}>
+                                    <Text style={{paddingTop:10,paddingBottom:10, lineHeight:20}}>导演</Text>
+                                    <Image
+                                    style={{width:80,height:100,marginBottom:10}}
+                                    source={{uri:basic.director.img}} />
+                                    <Text>{basic.director.name}</Text>
+                                </TouchableOpacity>
+                                <TouchableOpacity style={{flex:1}}>  
+                                    <Text style={{paddingTop:10,fontSize:16}}>全部 》</Text>  
                                 </TouchableOpacity>    
+                            </View>
+                            <View style={styles.actorsContentStyle}>
                             </View>    
                         </View>    
                     </ScrollView>  
@@ -94,7 +139,7 @@ class MovieDetail  extends Component {
                                 <Icon name={'oneIcon|share_o'} size={20} color={commonStyles.white}></Icon>
                             </TouchableOpacity>    
                         </View>
-                        <View>
+                        <View >
                         </View>        
                     </View>    
                 </View>
@@ -136,7 +181,7 @@ const styles = StyleSheet.create(
             marginTop:20,
             flexDirection:'row',
             alignItems:'center',
-            paddingHorizontal:10,
+            paddingHorizontal:10,   
             justifyContent:'space-between'
         },
         contentStyle:{
@@ -145,11 +190,48 @@ const styles = StyleSheet.create(
             backgroundColor:commonStyles.white
         },
         headerStyle:{
-            marginTop: 0,
+            marginTop:0,
+            marginBottom:20,
             height:100,
             flexDirection: 'row',
             paddingHorizontal: 10,
             paddingBottom:10,
+        },
+        rightContentStyle: {
+            marginLeft:10,
+            flex:1,
+            backgroundColor:commonStyles.clear,
+            marginTop:-25,
+        },
+        headerContentViewStyle:{
+           flexDirection:'column' ,
+           alignItems:'flex-start',
+           justifyContent:'center'
+        },
+        textReleaseArea:{
+            justifyContent: 'center',
+            alignItems: 'center',
+            backgroundColor: 'transparent',
+            borderWidth: 0.5,
+            marginRight: 10,
+            borderColor: '#64788E'
+        },
+        storyContentStyle:{
+            marginTop:10,
+            borderTopWidth:10,
+            borderTopColor:commonStyles.lineColor,
+            borderBottomWidth:10,
+            borderBottomColor:commonStyles.lineColor,
+            backgroundColor:commonStyles.white
+        },
+        // 导演列表
+        //演员列表
+        actorsContentStyle:{
+            marginTop:10,
+            backgroundColor:commonStyles.white,
+            borderTopColor:commonStyles.lineColor,
+            borderTopWidth:10,
+            height:100
         }
 
     }
