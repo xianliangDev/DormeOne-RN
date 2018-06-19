@@ -34,6 +34,10 @@ import MessageBar from '../utils/messageBar/MessageBar'
 import Tabbar from './TabbarController'
 //电影详情
 import MovieDetail from '../components/pages/movie/movieDetail'
+//演员列表
+import ActorsList from '../components/pages/movie/actorsList'
+//预告花絮
+import MovieTrailerList from '../components/pages/movie/movietrailerlist'
 
 
 
@@ -62,6 +66,11 @@ const scenes = Actions.create(
             (state) => state.movie.movieDetail,
             Action.dispatch('movie')
           )(MovieDetail)}/>
+          <Scene key='actorsList' component={ActorsList}/>
+          <Scene key='movieTrailerList' component = {connect(
+            (state) => state.movie.movieList,
+            Action.dispatch('movie')
+          )(MovieTrailerList)}/>
         </Stack>
         <Scene key='loading' component={connect(
          (state) => state.common.loading

@@ -8,6 +8,8 @@ import {Icon}  from '../../../utils/icon'
 import {commonStyles} from '../../../utils/commonStyles'
 import deviceInfo from '../../../utils/deviceInfo'
 
+import {ShareModal} from '../../../utils/shareModel'
+
 class MovieDetail  extends Component {
     constructor(props){
         super(props)
@@ -25,7 +27,7 @@ class MovieDetail  extends Component {
        
     }
     _onScroll(event) {
-       let y = event.nativeEvent.contentOffeset.y
+       let y = event.nativeEvent.contentOffset.y
        let opacityPercent = y/64
        if (y < 64) {
            this.navBar.setNativeProps({
@@ -43,6 +45,17 @@ class MovieDetail  extends Component {
         })
     }
 
+    renderActors(array){
+        return (
+            array.map((item,index) => 
+           <TouchableOpacity  key={item.actorId} style={{backgroundColor:commonStyles.white,alignItems:'center'}}
+           onPress={()=> Actions.actorsList()} > 
+                <Image source={{uri:item.img}}  style={{width:100,height:160,margin:10}}></Image>
+                <Text>{item.name}</Text>
+                <Text>{item.nameEn}</Text>
+           </TouchableOpacity>    )
+        )
+    }
     renderStory(array){
         return (
             array.map((item,index) => 
@@ -56,7 +69,7 @@ class MovieDetail  extends Component {
         return (
                 <View style = {styles.container}>
                     <ScrollView
-                     onScroll={()=>this._onScroll.bind(this)} 
+                     onScroll={this._onScroll.bind(this)} 
                      scrollEventThrottle={20}
                      bounces={false} >
                         <Image
@@ -78,7 +91,8 @@ class MovieDetail  extends Component {
                                 <TouchableOpacity style={{backgroundColor:commonStyles.clear,
                                 justifyContent:'center',
                                 alignItems:'center',
-                                     }}>
+                                }}
+                                onPress ={ ()=> Actions.movieTrailerList({id: basic.movieId})}>
                                     <Image style={{width:100,height:150}}
                                     source={{uri:basic.img}}
                                     resizeMode='contain'>
@@ -120,16 +134,30 @@ class MovieDetail  extends Component {
                                     source={{uri:basic.director.img}} />
                                     <Text>{basic.director.name}</Text>
                                 </TouchableOpacity>
-                                <TouchableOpacity style={{flex:1}}>  
-                                    <Text style={{paddingTop:10,fontSize:16}}>全部 》</Text>  
+                                <TouchableOpacity style={{flex:1,flexDirection:'row',alignItems:'flex-start',paddingTop:10}}>  
+                                    <Text style={{fontSize:16}}>全部</Text> 
+                                    <Icon size={12} color={commonStyles.black} name={'oneIcon|music_playing_s'}></Icon>
                                 </TouchableOpacity>    
                             </View>
-                            <View style={styles.actorsContentStyle}>
-                            </View>    
+                            <ScrollView style={styles.actorsContentStyle} horizontal={true}showsHorizontalScrollIndicator={false}>
+                                {this.renderActors(basic.actors)}
+                            </ScrollView>    
                         </View>    
                     </ScrollView>  
                     {/* 顶部导航栏 */}
-                    <View style={[styles.navBarStyle,{backgroundColor:commonStyles.clear}]}>
+                    <View  style={[styles.navBarStyle,{backgroundColor:commonStyles.clear}]}>
+                        <View style={styles.navCommentStyle}>
+                            <TouchableOpacity onPress={() => Actions.pop()}>
+                                <Icon name={'oneIcon|nav_back_o'} size={20} color={commonStyles.white}></Icon>
+                            </TouchableOpacity>    
+                            <TouchableOpacity style={{marginRight:10}} onPress={() => this.setState({modalVisible:true})}>
+                                <Icon name={'oneIcon|share_o'} size={20} color={commonStyles.white}></Icon>
+                            </TouchableOpacity>    
+                        </View>
+                        <View >
+                        </View>        
+                    </View>    
+                    <View ref={ref => this.navBar = ref} style={[styles.navBarStyle,{opacity:0}]}>
                         <View style={styles.navCommentStyle}>
                             <TouchableOpacity onPress={() => Actions.pop()}>
                                 <Icon name={'oneIcon|nav_back_o'} size={20} color={commonStyles.white}></Icon>
@@ -141,7 +169,16 @@ class MovieDetail  extends Component {
                         </View>
                         <View >
                         </View>        
-                    </View>    
+                    </View>
+                    <ShareModal
+                     visible={this.state.modalVisible}
+                     onVisibleChange= {
+                         (modalVisible) =>this.setState({
+                            modalVisible: modalVisible
+                         }
+                         )
+                     }
+                    />   
                 </View>
             )
     }
@@ -227,11 +264,12 @@ const styles = StyleSheet.create(
         // 导演列表
         //演员列表
         actorsContentStyle:{
-            marginTop:10,
+            marginTop:0,
+            flexDirection:'row',
             backgroundColor:commonStyles.white,
             borderTopColor:commonStyles.lineColor,
             borderTopWidth:10,
-            height:100
+            height:240
         }
 
     }
